@@ -1,0 +1,11 @@
+tables:
+  - name: annual_enterprise_survey_2025_financial_year_provisional_size_bands
+    title: annual_enterprise_survey_2025_financial_year_provisional_size_bands
+    sql: {{
+      load_sql('annual_enterprise_survey_2025_financial_year_provisional_size_b\
+      ands') }}
+    description: Semantic view for
+      annual_enterprise_survey_2025_financial_year_provisional_size_bands.
+    public: true
+    dimensions: []
+    measures: []

@@ -1,0 +1,37 @@
+version: v1beta
+entity: product
+type: data
+tags:
+  - DPTier.Consumer Aligned
+  - SemanticModelAgent
+v1beta:
+  data:
+    meta:
+      title: git-token-update-test
+      sourceCodeUrl: https://github.com/parthkhatke/git-pat-reset-test
+    collaborators:
+      - name: parthkhatke
+        description: owner
+    resource:
+      description: git-token-update-test
+      refType: dataos
+      type: bundle
+      version: v1beta
+      ref: bundle:v1beta:git-token-update-test
+    inputs:
+      - description: "-"
+        purpose: "-"
+        refType: dataos
+        ref: dataos://icebase:builderuploads/annual_enterprise_survey_2025_financial_year_provisional_size_bands
+    ports:
+      lens:
+        ref: lens:v1alpha:git-token-update-test-lens:public
+        refType: dataos
+        meta:
+          description: git-token-update-test semantic model providing unified access to
+            curated metrics and dimensions for this data product.
+name: git-token-update-test
+purpose: git-token-update-test
+description: git-token-update-test
+workspace: public
+owner: parthkhatke
